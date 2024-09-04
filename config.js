@@ -16,17 +16,17 @@ module.exports = {
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownername: process.env.Owner_Name || "Capitan Desmadre",
+    ownernumber: process.env.Owner_Number || "19152093002",
+    instagramId: process.env.Insta || "captainhoruz",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
+    author: process.env.Author || "@CaptainHoruz",
     packname: process.env.PackName || "Queen Anya v2 MD",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    socialLink: process.env.Web || "https://github.com/CaptainHoruz",
+    groupLink: process.env.GcLink || "https://chat.whatsapp.com/19152093002",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
